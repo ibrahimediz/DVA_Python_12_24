@@ -1,7 +1,4 @@
-liste = ["İbrahim", "Seyfullah", "Fatih", "Furkan", "Mustafa", "Tolga","Melis","Enes","Yusuf",
-"Özge","Gizem","İpek",
-         ]
-metin = """
+
 # # Şifre üreten bir program yazarken aşağıda yer alan şartları kontrol etmemiz ve şifreyi üretmemiz gerekiyor.
 # # * en az 12 karakter uzunluğunda olacak
 # # * içerisinde en az bir küçük harf olacak
@@ -13,11 +10,21 @@ metin = """
 # # from random import choice
 # # from string import ascii_uppercase, ascii_lowercase, digits, punctuation
 # # ----
-"""
-import pathlib
-folder = pathlib.Path(__file__).absolute().parent
-for item in liste:
-    with open(folder / f"{item}.py","a+") as dosya:
-        dosya.write(metin)
 
+from random import choice, shuffle, randint
+from string import ascii_uppercase as up, ascii_lowercase as low, digits as dig ,punctuation as pun
 
+password = []
+password.append(choice(up))
+password.append(choice(low))
+password.append(choice(dig))
+password.append(choice(pun))
+
+total = up + low + dig + pun
+len = randint(12, 20)
+for i in range(len - 4):
+    password.append(choice(total))
+
+shuffle(password)
+password = ''.join(password)
+print(password)
