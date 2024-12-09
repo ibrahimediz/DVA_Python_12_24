@@ -1,0 +1,3 @@
+liste = ["İbrahim",
+         
+         ]
