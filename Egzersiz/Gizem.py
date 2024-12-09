@@ -10,3 +10,11 @@
 # # from random import choice
 # # from string import ascii_uppercase, ascii_lowercase, digits, punctuation
 # # ----
+
+import random
+from string import ascii_uppercase, ascii_lowercase, digits, punctuation
+mylist=((ascii_uppercase),(ascii_lowercase),(digits),(punctuation))
+passw=""
+for i in range(12):
+    passw=passw+(random.choice(mylist[i%4]))
+print(passw)

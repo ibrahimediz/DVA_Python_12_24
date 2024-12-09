@@ -7,6 +7,7 @@
 # # * içerisinde en az bir noktalama işareti olacak
 # # -----
 # # bu programı yazarken aşağıdaki kodları kullanabilirsiniz:
-# # from random import choice
-# # from string import ascii_uppercase, ascii_lowercase, digits, punctuation
+from random import choice
+from string import ascii_uppercase, ascii_lowercase, digits, punctuation
 # # ----
+

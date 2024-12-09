@@ -10,3 +10,22 @@
 # # from random import choice
 # # from string import ascii_uppercase, ascii_lowercase, digits, punctuation
 # # ----
+
+sifre = "Cemil Olabilir Mi Cem1l?"
+hasLowerCase = False
+hasUpperCase = False
+hasDigit = False
+hasNoktalama = False
+for i in sifre:
+    if i.isupper():
+        hasUpperCase = True
+    if i.islower():
+        hasLowerCase = True
+    if i.isdigit():
+        hasDigit = True
+    if not i.isalnum():
+        hasNoktalama = True
+if len(sifre) >= 12 and hasLowerCase and hasUpperCase and hasDigit and hasNoktalama:
+    print("Valid")
+else:
+    print("Not Valid")

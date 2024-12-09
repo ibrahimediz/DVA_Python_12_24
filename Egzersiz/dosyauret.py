@@ -19,5 +19,3 @@ folder = pathlib.Path(__file__).absolute().parent
 for item in liste:
     with open(folder / f"{item}.py","a+") as dosya:
         dosya.write(metin)
-
-
