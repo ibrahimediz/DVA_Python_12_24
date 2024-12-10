@@ -2,4 +2,4 @@
 
 https://github.com/ibrahimediz/DVA_Python_12_24
 
-https://www.codingame.com/clashofcode/clash/3953654cefc1181bcc53391064de9680dd8ceac
+https://www.codingame.com/clashofcode/clash/3953676c069bc9d35add52a4f456745355fdbca
