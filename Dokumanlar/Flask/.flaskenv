@@ -1,0 +1,2 @@
+FLASK_APP=runbabyrun.py
+DEBUG_MODE=True

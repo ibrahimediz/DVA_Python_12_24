@@ -1,0 +1,8 @@
+beautifulsoup4 @ file:///C:/Users/ediz/Documents/GitHub/DVA_Python_06_10_01/beautifulsoup4-4.12.3-py3-none-any.whl#sha256=b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed
+numpy==2.2.1
+pandas==2.2.3
+python-dateutil==2.9.0.post0
+pytz==2024.2
+six==1.17.0
+soupsieve==2.6
+tzdata==2024.2
